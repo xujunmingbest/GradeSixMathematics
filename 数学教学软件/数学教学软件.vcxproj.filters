@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="登入框">
+      <UniqueIdentifier>{40256c21-c105-4feb-a854-e7e5fb5b92c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{91dd2d2c-3da5-47f2-8219-6b46388bf95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="教学大纲">
+      <UniqueIdentifier>{1db1a4c5-c1b0-4b3f-8ca9-24dd7f6f173f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="比和百分比">
+      <UniqueIdentifier>{898cf67f-49d7-4b10-9dc4-81b898213911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SynchroShortConnection.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Mac.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>登入框</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Login.h">
+      <Filter>登入框</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="教学大纲.h">
+      <Filter>教学大纲</Filter>
+    </ClInclude>
+    <ClInclude Include="比和百分比.h">
+      <Filter>比和百分比</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Login.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

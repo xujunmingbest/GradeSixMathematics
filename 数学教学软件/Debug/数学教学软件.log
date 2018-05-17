@@ -1,0 +1,4 @@
+﻿  Entry.cpp
+  Entry.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+  数学教学软件.vcxproj -> E:\ClrTeach\数学教学软件\Debug\数学教学软件.exe
+  数学教学软件.vcxproj -> E:\ClrTeach\数学教学软件\Debug\数学教学软件.pdb (Partial PDB)
